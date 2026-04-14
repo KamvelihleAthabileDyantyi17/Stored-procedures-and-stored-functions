@@ -1,2 +1,4 @@
-SELECT get_bonus(5000) AS bonus FROM dual
+BEGIN
+   update_salary(101, 6000);
+END;
 /
